@@ -35,7 +35,7 @@ const rl = readline.createInterface({
           rl.close()
         }
         else if(numAttempts === 0){
-          console.log("Max turns reached.  YOU LOSE!")
+          console.log("Max turns reached.  YOU LOSE!" + ` Secret number was ${secretNumber}`)
           rl.close()
         }
         else {
